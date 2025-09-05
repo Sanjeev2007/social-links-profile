@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 - Solution URL: [GitHub Repo](https://github.com/Sanjeev2007/social-links-profile)  
-- Live Site URL: [Live Demo](https://sanjeev2007.github.io/social-links-profile/)  
+- Live Site URL: [Live Demo]([https://sanjeev2007.github.io/social-links-profile/](https://sanjeev2007.github.io/social-links-profile/))  
 
 ---
 
