@@ -22,8 +22,8 @@ Users should be able to:
 - View the optimal layout depending on their device’s screen size  
 
 ### Screenshot
-![Screenshot of my solution](./assets/images/screenshot.png)  
-*(replace this path with your actual screenshot file)*  
+<img width="1900" height="966" alt="image" src="https://github.com/user-attachments/assets/3c1432d5-d526-4f9f-8978-a7857c563c0f" />
+ 
 
 ### Links
 - Solution URL: [GitHub Repo](https://github.com/Sanjeev2007/social-links-profile)  
