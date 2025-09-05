@@ -1,0 +1,84 @@
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: hsl(0, 0%, 8%);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20vh 0 0;
+
+}
+.box{
+    width: 40vh;
+    background-color:hsl(0, 0%, 12%);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.elements{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.element{
+    background-color: hsl(0, 0%, 20%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30vh;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.element:hover,
+.element:focus-visible {
+  cursor: pointer;
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 8%);
+  outline: none;
+}
+#jessica{
+    width: 100px;
+    border-radius: 100px;
+}
+#name{
+    margin-bottom:10px;
+}
+#location{
+    margin-top: 0;
+    margin-bottom: 35px;
+    color:hsl(75, 94%, 57%)
+}
+
+.attribution{
+    display:flex;
+    padding-top: 25vh;
+    position: relative;
+}
+
+
+@media (max-width: 430px) {
+  body {
+    min-height: 100svh;            /* better than 100vh on mobile */
+    padding: 24px 16px;
+    display: grid;
+    place-items: center;
+    gap: 0;
+  }
+
+  .box { width: 100%; padding: 24px 20px; border-radius: 16px; }
+  .elements { gap: 12px; }
+
+  /* Tighten type scale to match your mock */
+  #name { font-size: 1.5rem; }
+  #location { font-size: .95rem; }
+  #tagline { font-size: .9rem; }
+
+  .attribution { padding-top: 16px; font-size: 12px; text-align: center; }
+}
+
+
