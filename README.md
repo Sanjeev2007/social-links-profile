@@ -10,7 +10,8 @@ This is a solution to the [Social Links Profile challenge on Frontend Mentor](ht
   - [Screenshot](#screenshot)  
   - [Links](#links)  
 - [My process](#-my-process)  
-- [Author](#-author)  
+  - [Built with](#built-with)  
+  - [What I learned](#what-i-learned)  
 
 ---
 
@@ -22,8 +23,8 @@ Users should be able to:
 - View the optimal layout depending on their device’s screen size  
 
 ### Screenshot
-<img width="1900" height="966" alt="image" src="https://github.com/user-attachments/assets/3c1432d5-d526-4f9f-8978-a7857c563c0f" />
- 
+<img width="1904" height="967" alt="image" src="https://github.com/user-attachments/assets/bd15a4ac-e7ab-4920-bb4c-21af92d5bd7e" />
+
 
 ### Links
 - Solution URL: [GitHub Repo](https://github.com/Sanjeev2007/social-links-profile)  
@@ -42,6 +43,26 @@ I approached this project with a **desktop-first workflow**.
 
 ---
 
-## ✍️ Author
-- Frontend Mentor – [@Sanjeev2007](https://www.frontendmentor.io/profile/Sanjeev2007)  
-- GitHub – [@Sanjeev2007](https://github.com/Sanjeev2007)  
+### 🛠 Built with
+- Semantic HTML5 (basic structure)  
+- CSS custom properties  
+- Flexbox  
+- Desktop-first workflow with `max-width` media query  
+- Hover & focus states  
+
+---
+
+### 📚 What I learned
+- How to apply a desktop-first workflow and then adjust for mobile.  
+- Practiced using `vh` units for card widths (instead of `%` or `px`).  
+- Learned how to use media queries like `@media (max-width: 430px)` to change layout for smaller screens.  
+
+Code sample from my project:
+```css
+.element:hover,
+.element:focus-visible {
+  cursor: pointer;
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 8%);
+  outline: none;
+}
